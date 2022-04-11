@@ -10,9 +10,10 @@ You can [explore the tracked versions](https://github.com/OpenTermsArchive/<inst
 
 The documents declared in this repository are:
 
-- Related to online services used in France.
-- In the French jurisdiction.
-- In French, unless no French version exists, in which case English will be used; if there is no English version either, then the primary official language of the jurisdiction of incorporation of the service operator will be used.
+- ...
+
+## Contributing
+
 
 - - - -
 
