@@ -2,15 +2,19 @@
 
 This is a template for the `declarations` repository of [Open Terms Archive](https://opentermsarchive.org)
 
-Please refer to the doc on [How to use a template on Github](https://docs.github.com/en/github-ae@latest/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)
+**NOTE**: When creating from this template, please keep the naming structure of `${instanceName}-declarations` in order to keep consistency across repos and organisations. 
 
-When creating from this template, please keep the naming structure of `<instance-name>-declarations` in order to keep consistency across repos and organisations.
+In order to use it, follow this simple steps:
+- Navigate to https://github.com/OpenTermsArchive/template-declarations
+- Click on `Use this template`
+- Enter the name of the target repository `${instanceName}-declarations` and the target organization
 
-Once cloned, just launch
+or check the complete doc: [How to use a template on Github](https://docs.github.com/en/github-ae@latest/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)
 
-```
-./init.sh <instance-name>
-```
+Then you just need to
+- clone the repository you just created and named `${instanceName}-declarations`
+- launch `./init.sh ${instanceName} "${instanceMaintainer}"` (instanceMaintainer being the name of the entity that will maintain the declarations)
+- commit the files to git `git add . && git commit -m "Initiate instance"`
 
 This will replace the corresponding variables in the files and remove the now useless files.
 
