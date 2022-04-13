@@ -12,6 +12,13 @@ The documents declared in this repository are:
 
 - ...
 
+## Deployment
+
+For deployment to occur correctly, you need to setup [Github secrets](https://docs.github.com/en/enterprise-cloud@latest/actions/security-guides/encrypted-secrets) with the following names
+
+- `SERVER_FINGERPRINT` Generate it on the target server with `ssh-keygen -t rsa -b 4096 -C "$email" and then cat $nameofthefile.pub >> authorized_keys`
+- `SERVER_SSH_KEY` Generate with `ssh-keyscan -H $targetServerIpAddress`
+
 ## Contributing
 
 See [contrib-declarations repository](https://github.com/OpenTermsArchive/contrib-declarations/blob/main/CONTRIBUTING.md) to have explanations on how to add and update services or documents.
