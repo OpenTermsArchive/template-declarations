@@ -11,13 +11,21 @@ In order to use it, follow this simple steps:
 
 or check the complete doc: [How to use a template on Github](https://docs.github.com/en/github-ae@latest/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)
 
-Then you just need to
+Then you need to
+- Follow the instructions to [Continuous Deployment](#continuous-deployment)
 - clone the repository you just created and named `${instanceName}-declarations`
 - launch `./init.sh ${instanceName} "${instanceMaintainer}"` (instanceMaintainer being the name of the entity that will maintain the declarations)
 - commit the files to git `git add . && git commit -m "Initiate instance"`
 
 This will replace the corresponding variables in the files and remove the now useless files.
 
+## Continuous Deployment
+
+For continuous deployment on your server, you need to define the following variables as [GitHub secrets](https://docs.github.com/en/actions/security-guides/encrypted-secrets#creating-encrypted-secrets-for-a-repository):
+
+- `SERVER_FINGERPRINT`: obtained with `ssh-keyscan -H $serverAddress`.
+- `SERVER_SSH_KEY`: a private SSH key allowed to connect to your server.
+> You can for example generate one on your server with `ssh-keygen -q -N "" -f ~/.ssh/ota-deploy && cat ~/.ssh/ota-deploy.pub >> authorized_keys`, and store the contents of `~/.ssh/ota-deploy` as the `SERVER_SSH_KEY` secret.
 
 - - - -
 
