@@ -12,9 +12,11 @@ usage() {
 if ! test $INSTANCE_NAME || ! test "$INSTANCE_MAINTAINER"
 then
   usage
-fi
+fi  
 
-echo "Replacing \${instanceName} by "$INSTANCE_NAME" in template files..."
+echo "Replacing variables in template files..."
+echo "$\{instanceName\}: ${INSTANCE_NAME}"
+echo "$\{instanceMaintainer\}: ${INSTANCE_MAINTAINER}"
 TEMPLATE_FILES=$(find templates -type f)
 # Use intermediate backup files (`-i`) with a weird syntax due to lack of portable 'no backup' option. See https://stackoverflow.com/q/5694228/594053.
 # Credit to https://github.com/openfisca/country-template/blob/master/bootstrap.sh
