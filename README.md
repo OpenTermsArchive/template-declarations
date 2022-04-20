@@ -1,25 +1,30 @@
 # Open Terms Archive - template for declarations
 
+## How to use this template
+
 This is a template for the `declarations` repository of [Open Terms Archive](https://opentermsarchive.org)
 
-**NOTE**: When creating from this template, please keep the naming structure of `${instanceName}-declarations` in order to keep consistency across repos and organisations. 
+**NOTE**: When creating from this template, please keep the naming structure of `${instanceName}-declarations` in order to keep consistency across repos and organisations.
 
 In order to use it, follow this simple steps:
 - Navigate to https://github.com/OpenTermsArchive/template-declarations
 - Click on `Use this template`
 - Enter the name of the target repository `${instanceName}-declarations` and the target organization
+- Edit this file by clicking on the ![Edit Button](https://raw.githubusercontent.com/primer/octicons/main/icons/pencil-24.svg "Look, on the right of the title README.md") icon at the top right of this file *(This icon is visible if you have the right to modify this repo)*
+- Remove this paragraph and replace the `${instanceName}`
+- Add any documentation you find necesary
 
-or check the complete doc: [How to use a template on Github](https://docs.github.com/en/github-ae@latest/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)
+You can also check the complete doc: [How to use a template on Github](https://docs.github.com/en/github-ae@latest/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)
 
 Then you need to
 - Follow the instructions to [Continuous Deployment](#continuous-deployment)
-- clone the repository you just created and named `${instanceName}-declarations`
-- launch `./init.sh ${instanceName} "${instanceMaintainer}"` (instanceMaintainer being the name of the entity that will maintain the declarations)
-- commit the files to git `git add . && git commit -m "Initiate instance"`
+- Clone the repository you just created and named `${instanceName}-declarations`
+- Launch `./init.sh ${instanceName} "${instanceMaintainer}"` (instanceMaintainer being the name of the entity that will maintain the declarations)
+- Commit the files to git `git add . && git commit -m "Initiate instance"`
 
 This will replace the corresponding variables in the files and remove the now useless files.
 
-## Continuous Deployment
+### Continuous Deployment
 
 For continuous deployment on your server, you need to define the following variables as [GitHub secrets](https://docs.github.com/en/actions/security-guides/encrypted-secrets#creating-encrypted-secrets-for-a-repository):
 
