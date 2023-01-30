@@ -14,7 +14,7 @@ The documents declared in this repository are:
 
 ## Contributing
 
-See [contrib-declarations repository](https://github.com/OpenTermsArchive/contrib-declarations/blob/main/CONTRIBUTING.md) to have explanations on how to add and update services or documents.
+See [contrib-declarations repository](https://github.com/ambanum/OpenTermsArchive/blob/main/CONTRIBUTING.md) to have explanations on how to add and update services or documents.
 
 
 - - - -
