@@ -11,6 +11,9 @@ You can [explore the tracked versions](https://github.com/OpenTermsArchive/${ins
 The documents declared in this repository are:
 
 - ...
+## Available CLI commands
+
+To learn what CLI commands are available, see the [reference documentation](https://github.com/ambanum/OpenTermsArchive#cli).
 
 ## Contributing
 
