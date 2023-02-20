@@ -14,52 +14,62 @@ The documents declared in this repository are:
 ## Available CLI commands
 
 ### `npm run lint`
+
 Display errors of incorrectly formatted declarations.
 
-See [documentation](https://github.com/ambanum/OpenTermsArchive#ota-lint)
+See [documentation](https://github.com/ambanum/OpenTermsArchive#ota-lint).
 
 ### `npm run lint:fix`
+
 Apply linting on all declarations.
 
-See [documentation](https://github.com/ambanum/OpenTermsArchive#ota-lint)
+See [documentation](https://github.com/ambanum/OpenTermsArchive#ota-lint).
 
 ### `npm run test`
+
 Check that all declarations allow recording a snapshot and a version properly.
 
-See [documentation](https://github.com/ambanum/OpenTermsArchive#ota-validate)
+See [documentation](https://github.com/ambanum/OpenTermsArchive#ota-validate).
 
 ### `npm run test:schema`
+
 Check that all declarations are readable by the engine.
 
-See [documentation](https://github.com/ambanum/OpenTermsArchive#validate-schema-only)
+See [documentation](https://github.com/ambanum/OpenTermsArchive#validate-schema-only).
 
 ### `npm run test:modified`
+
 Run `npm run test` only on declarations changed and commited in Git.
 
-See [documentation](https://github.com/ambanum/OpenTermsArchive#validate-modified-terms-only)
+See [documentation](https://github.com/ambanum/OpenTermsArchive#validate-modified-terms-only).
 
 ### `npm run start`
+
 Track terms according to provided declarations.
 
-See [documentation](https://github.com/ambanum/OpenTermsArchive#ota-track)
+See [documentation](https://github.com/ambanum/OpenTermsArchive#ota-track).
 
 ### `npm run start:schedule`
+
 Track terms four times a day.
 
-See [documentation](https://github.com/ambanum/OpenTermsArchive#track-documents-four-times-a-day)
+See [documentation](https://github.com/ambanum/OpenTermsArchive#track-documents-four-times-a-day).
 
 ### `npm run start:modified`
+
 Launch `npm run start` only on declarations changed and commited in Git.
 
 ### `npm run dataset`
+
 Export and publish the versions dataset.
 
-See [documentation](https://github.com/ambanum/OpenTermsArchive#ota-dataset)
+See [documentation](https://github.com/ambanum/OpenTermsArchive#ota-dataset).
 
 ### `npm run dataset:schedule`
+
 Export and publish the versions dataset every monday.
 
-See [documentation](https://github.com/ambanum/OpenTermsArchive#publish-dataset-on-monday-every-week)
+See [documentation](https://github.com/ambanum/OpenTermsArchive#publish-dataset-on-monday-every-week).
 
 ## Contributing
 
