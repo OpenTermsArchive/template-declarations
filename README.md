@@ -19,7 +19,7 @@ You can also check the complete doc: [How to use a template on Github](https://d
 Then you need to
 - Follow the instructions to [Continuous Deployment](#continuous-deployment)
 - Clone the repository you just created and named `${instanceName}-declarations`
-- Launch `./init.sh ${instanceName} "${instanceMaintainer}"` (instanceMaintainer being the name of the entity that will maintain the declarations)
+- Launch `./init.sh` and the script will guide you for the configuration
 - Commit the files to git `git add . && git commit -m "Initiate instance"`
 
 This will replace the corresponding variables in the files and remove the now useless files.
