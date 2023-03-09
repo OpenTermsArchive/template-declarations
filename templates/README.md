@@ -2,79 +2,26 @@
 
 These services declarations are maintained by ${instanceMaintainer} and tracked on [Open Terms Archive](https://opentermsarchive.org).
 
-These service declarations are consumed by [Open Terms Archive engine](https://github.com/OpenTermsArchive/engine). See Open Terms Archive [contribution guidelines](https://github.com/OpenTermsArchive/contrib-declarations/blob/main/CONTRIBUTING.md) to learn how to add and update services or documents.
+These service declarations are consumed by [Open Terms Archive engine](https://github.com/OpenTermsArchive/engine). 
 
 You can [explore the tracked versions](https://github.com/OpenTermsArchive/${instanceName}-versions) interactively or [download them as a dataset](https://github.com/OpenTermsArchive/${instanceName}-versions/releases) in the `OpenTermsArchive/${instanceName}-versions` repository.
 
+- - -
+
 ## Scope
 
-The documents declared in this repository are:
+The documents declared in this repository operate in:
 
-- ...
-## Available CLI commands
+- industry: _____
+- language: _____
+- jurisdiction: _____
 
-### `npm run lint`
+- - -
 
-Display errors of incorrectly formatted declarations.
+## Useful links
 
-See [documentation](https://github.com/OpenTermsArchive/engine#ota-lint).
-
-### `npm run lint:fix`
-
-Apply linting on all declarations.
-
-See [documentation](https://github.com/OpenTermsArchive/engine#ota-lint).
-
-### `npm run test`
-
-Check that all declarations allow recording a snapshot and a version properly.
-
-See [documentation](https://github.com/OpenTermsArchive/engine#ota-validate).
-
-### `npm run test:schema`
-
-Check that all declarations are readable by the engine.
-
-See [documentation](https://github.com/OpenTermsArchive/engine#validate-schema-only).
-
-### `npm run test:modified`
-
-Run `npm run test` only on declarations changed and commited in Git.
-
-See [documentation](https://github.com/OpenTermsArchive/engine#validate-modified-terms-only).
-
-### `npm run start`
-
-Track terms according to provided declarations.
-
-See [documentation](https://github.com/OpenTermsArchive/engine#ota-track).
-
-### `npm run start:schedule`
-
-Track terms four times a day.
-
-See [documentation](https://github.com/OpenTermsArchive/engine#track-documents-four-times-a-day).
-
-### `npm run start:modified`
-
-Launch `npm run start` only on declarations changed and commited in Git.
-
-### `npm run dataset`
-
-Export and publish the versions dataset.
-
-See [documentation](https://github.com/OpenTermsArchive/engine#ota-dataset).
-
-### `npm run dataset:schedule`
-
-Export and publish the versions dataset every monday.
-
-See [documentation](https://github.com/OpenTermsArchive/engine#publish-dataset-on-monday-every-week).
-
-## Contributing
-
-To add or update documents, see the [reference documentation](https://github.com/OpenTermsArchive/engine/blob/main/CONTRIBUTING.md).
-
+- the documentation of available [commands in the CLI](https://docs.opentermsarchive.org/#cli)
+- guidelines to learn how to [declare](https://docs.opentermsarchive.org/guidelines/declaring/) and [target](https://docs.opentermsarchive.org/guidelines/targeting/) documents
 
 - - - -
 
