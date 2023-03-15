@@ -10,7 +10,7 @@ You can [explore the tracked versions](https://github.com/OpenTermsArchive/${ins
 
 ## Scope
 
-The documents declared in this repository operate in:
+The terms tracked by this repository are those of services that operate in:
 
 - industry: _____
 - language: _____
