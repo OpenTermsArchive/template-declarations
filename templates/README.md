@@ -18,10 +18,15 @@ The terms tracked by this repository are those of services that operate in:
 
 - - -
 
-## Useful links
+## Contribute
 
-- the documentation of available [commands in the CLI](https://docs.opentermsarchive.org/#cli)
-- guidelines to learn how to [declare](https://docs.opentermsarchive.org/guidelines/declaring/) and [target](https://docs.opentermsarchive.org/guidelines/targeting/) documents
+In order to contribute to this collection, you should find useful information in the guidelines to learn how to [declare](https://docs.opentermsarchive.org/guidelines/declaring/) and [target](https://docs.opentermsarchive.org/guidelines/targeting/) documents.
+
+- - -
+
+## CLI usage
+
+Please consult the documentation of available [commands in the CLI](https://docs.opentermsarchive.org/#cli).
 
 - - - -
 
