@@ -2,7 +2,7 @@
 
 These services declarations are maintained by ${instanceMaintainer} and tracked on [Open Terms Archive](https://opentermsarchive.org).
 
-These service declarations are consumed by the [Open Terms Archive engine](https://github.com/OpenTermsArchive/engine). 
+The terms listed in this collection are tracked by the [Open Terms Archive engine](https://github.com/OpenTermsArchive/engine). 
 
 You can [explore the tracked versions](https://github.com/OpenTermsArchive/${instanceName}-versions) interactively or [download them as a dataset](https://github.com/OpenTermsArchive/${instanceName}-versions/releases) in the `OpenTermsArchive/${instanceName}-versions` repository.
 
