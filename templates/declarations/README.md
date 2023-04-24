@@ -1,5 +1,5 @@
 First of all, thanks for taking the time to contribute! 🎉👍
 
-You can see all up to date documentation on the [contrib-declarations repository](https://github.com/OpenTermsArchive/contrib-declarations/blob/main/CONTRIBUTING.md)
+In order to contribute additional terms to this collection or correct existing ones, please read the guidelines on [targeting](https://docs.opentermsarchive.org/guidelines/targeting/) and [declaring](https://docs.opentermsarchive.org/guidelines/declaring/) terms.
 
 And remove this file when you know what you need to do!
