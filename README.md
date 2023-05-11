@@ -21,7 +21,6 @@ Then you need to
 - Clone the repository you just created and named `${instanceName}-declarations`
 - Launch `./init.sh` and the script will guide you for the configuration
 - Commit the files to git `git add . && git commit -m "Initiate instance"`
-- Setup Dependabot through the `.github/dependabot.yml` configuration file
 
 This will replace the corresponding variables in the files and remove the now useless files.
 
