@@ -29,6 +29,8 @@ then
   usage
 fi  
 
+rm templates/.DS_Store  # avoid “Illegal byte sequence” error
+
 echo "Replacing variables in template files..."
 echo "$\{instanceName\}: ${INSTANCE_NAME}"
 echo "$\{instanceMaintainer\}: ${INSTANCE_MAINTAINER}"
