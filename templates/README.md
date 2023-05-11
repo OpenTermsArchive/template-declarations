@@ -30,7 +30,7 @@ Interacting with this collection can also be done over the command line. Read th
 
 - - -
 
-## Suggested engine updates
+## Engine updates
 
 In order to keep the Open Terms Archive engine up-to-date, updates will be automatically suggested by [Dependabot](https://github.blog/2020-06-01-keep-all-your-packages-up-to-date-with-dependabot/) in a pull request when a new version is available.
 
