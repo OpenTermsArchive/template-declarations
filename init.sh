@@ -51,10 +51,10 @@ find . -name "*.template" -type f -delete
 echo "Using templates"
 shopt -s dotglob # If set, bash includes filenames beginning with a '.' in the results of pathname expansion.
 mv templates/* .
-rm -Rf templates
+rm -Rf templates init.sh
+
+git init
+git add .
+git commit --message "Initialise collection from template" --author "Open Terms Archive Bot <bot@opentermsarchive.org>" --no-gpg-sign
 
 echo "🎉 You're all done, congratulations"
-echo "Now, just commit the files in Git launching"
-echo ""
-echo "git add . && git commit -m \"Initiate instance\""
-rm init.sh
