@@ -1,3 +1,5 @@
+### ⚠️ Deprecated. See the updated way to [create a new collection on the documentation](https://docs.opentermsarchive.org/create-new-collection/).
+
 # Open Terms Archive - template for declarations
 
 ## How to use this template
